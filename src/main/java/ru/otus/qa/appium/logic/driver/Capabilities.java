@@ -10,7 +10,7 @@ public class Capabilities {
         desiredCapabilities.setPlatform(Platform.ANDROID);
         desiredCapabilities.setCapability("deviceName", "emulator-5554");
         desiredCapabilities.setCapability("automationName", "Appium");
-        desiredCapabilities.setCapability("app", Capabilities.class.getClassLoader().getResource("skoda.apk").getPath());
+        desiredCapabilities.setCapability("app", "C:\\otus\\otus-appium\\target\\classes\\app_debug-61572-f1d095.apk");
         return desiredCapabilities;
     }
 }
